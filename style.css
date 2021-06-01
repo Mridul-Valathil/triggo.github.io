@@ -132,3 +132,19 @@ nav {
   background: #40e0d0;
   padding: 10px 0px 10px 0px;
 }
+
+@media screen and (max-width: 1024px) {
+  #nav {
+    display: none;
+  }
+  .cta-nav {
+    width: 75px;
+    font-size: 12px;
+    height: 30px;
+    padding-bottom: 1px;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
